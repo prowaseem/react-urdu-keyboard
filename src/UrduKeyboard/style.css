@@ -1,0 +1,88 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css");
+@font-face {
+    font-family: AdobeArabicRegular;
+    src: url("./adobe-arabic-regular.otf");
+    font-weight: 400;
+}
+html,body{
+    font-family: sans-serif;
+    font-size: 100%;
+}
+form .form-control{
+    border: none;
+    background: none;
+}
+#urduKeyboard,
+#urduKeyboard #editor{
+    width: 100%;
+}
+#urduKeyboard #editor{
+    min-height: 20rem;
+    background-color: #ddd;
+    padding: .5rem;
+}
+#urduKeyboard .row{
+    margin: 0;
+}
+#urduKeyboard .header{
+    background-color: #f7f7f9;
+    padding: .2rem;
+}
+#urduKeyboard .group{
+    padding: 0;
+}
+#urduKeyboard .group::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: .3rem;
+    right: 0;
+    height: 1.3rem;
+    width: .05rem;
+    background: #aaa;
+}
+#urduKeyboard .group:last-child::after{
+    display: none;
+}
+#urduKeyboard .group .btn{
+    margin: 0 .1rem;
+}
+#urduKeyboard .group .row > div{
+    padding: 0;
+}
+#urduKeyboard .btn{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: .4rem 0.6rem;
+    border: none;
+    background-color: #f7f7f9;
+}
+#urduKeyboard .fa{
+    color: #636c72;
+}
+#urduKeyboard select#font-family{
+    padding: 0 .5rem;
+    margin-top: -.3rem;
+}
+#urduKeyboard select#font-size{
+    padding: 0 .2rem;
+    margin-top: -.3rem;
+}
+#urduKeyboard select:focus{
+    background: none;
+}
+#urduKeyboard .body{
+    width: 100%;
+    min-height: 18rem;
+    background-color: #fff;
+    display: block;
+    height: 18rem;
+    padding: .6rem;
+    overflow: auto;
+    text-align: right;
+    font-family: AdobeArabicRegular, serif;
+}
+#urduKeyboard .body:focus{
+    outline: none;
+}
