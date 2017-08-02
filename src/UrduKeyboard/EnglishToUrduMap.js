@@ -316,11 +316,99 @@ englishToUrduMap = [
     },
     {
         "key": 76,
-        "en": keyboard[75],
+        "en": keyboard[76],
         "ur": unicode[1604],
         "ur_translation": 'Laam',
         'en_translation': 'L',
         "shift": false
+    },
+    {
+        "key": 76,
+        "en": keyboard[76],
+        "ur": unicode[1554],
+        "ur_translation": 'Rehmatullah alayhe',
+        'en_translation': 'L',
+        "shift": true
+    },
+    {
+        "key": 77,
+        "en": keyboard[77],
+        "ur": unicode[1605],
+        "ur_translation": 'Meem',
+        'en_translation': 'EM',
+        "shift": false
+    },
+    {
+        "key": 77,
+        "en": keyboard[77],
+        "ur": unicode[1552],
+        "ur_translation": 'Sallallahou alayhe wassallam',
+        'en_translation': 'EM',
+        "shift": true
+    },
+    {
+        "key": 78,
+        "en": keyboard[78],
+        "ur": unicode[1606],
+        "ur_translation": 'Noon',
+        'en_translation': 'EN',
+        "shift": false
+    },
+    {
+        "key": 78,
+        "en": keyboard[78],
+        "ur": unicode[1722],
+        "ur_translation": 'Noon ghunna',
+        'en_translation': 'EN',
+        "shift": true
+    },
+    {
+        "key": 79,
+        "en": keyboard[79],
+        "ur": unicode[1607],
+        "ur_translation": 'Heh',
+        'en_translation': 'Oo',
+        "shift": false
+    },
+    {
+        "key": 79,
+        "en": keyboard[79],
+        "ur": unicode[1731],
+        "ur_translation": 'Teh marbuta goal',
+        'en_translation': 'Oo',
+        "shift": true
+    },
+    {
+        "key": 80,
+        "en": keyboard[80],
+        "ur": unicode[1662],
+        "ur_translation": 'Peh',
+        'en_translation': 'P',
+        "shift": false
+    },
+    {
+        "key": 80,
+        "en": keyboard[80],
+        "ur": unicode[1615],
+        "ur_translation": 'Damma',
+        'en_translation': 'P',
+        "shift": true
+    },
+    {
+        "key": 81,
+        "en": keyboard[81],
+        "ur": unicode[1602],
+        "ur_translation": 'Qaf',
+        'en_translation': 'Que',
+        "shift": false
+    },
+    {
+        "key": 81,
+        "en": keyboard[81],
+        "ur": unicode[1552],
+        "ur_translation": 'Sallallahou alayhe wassallam',
+        'en_translation': 'Que',
+        "shift": true
     },
 ];
 export default englishToUrduMap;
